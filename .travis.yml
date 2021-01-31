@@ -5,7 +5,7 @@ language: generic
 services:
   - docker
 
-script: mvn install
+after_success: true
 
 install:
   -  docker build -t dockerdemo .
