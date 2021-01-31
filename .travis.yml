@@ -7,7 +7,7 @@ services:
 
 script: mvn install
 
-before_install:
+install:
   -  docker build -t dockerdemo .
 
 deploy:
