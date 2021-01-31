@@ -5,6 +5,8 @@ language: generic
 services:
   - docker
 
+script: mvn install
+
 before_install:
   -  docker build -t dockerdemo .
 
